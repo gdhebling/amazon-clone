@@ -13,8 +13,12 @@ function Login() {
     const signIn = e => {
         e.preventDefault()
 
-        // firebase login here
+        auth.signInWithEmailAndPassword(email, password).then((auth) => {
+            history.push("/")
+        })
+            .catch(error => alert(error.message))
     }
+
 
     const register = e => {
         e.preventDefault();
@@ -27,8 +31,6 @@ function Login() {
             }
         })
             .catch(error => alert(error.message))
-
-        // firebase register here 
     }
 
     return (
