@@ -30,6 +30,7 @@
 }
 
 .header__searchIcon {
+    cursor: pointer;
     padding: 5px;
     height: 22px !important;
     background-color: #cd9042;
@@ -38,6 +39,10 @@
 .header__nav {
     display: flex;
     justify-content: space-evenly;
+}
+
+.header__nav a {
+    text-decoration: none;
 }
 
 .header__option {
