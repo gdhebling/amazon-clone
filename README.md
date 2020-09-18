@@ -1,7 +1,7 @@
 # Amazon Clone
 
 ## The project
-Web application created mainly with React and deployed using Google Firebase. gi 
+Web application created mainly with React and deployed using Google Firebase.  
 React Router for UI, React Context API for basket, user authentication, payment functionality with Stripe (to be implemented).  
 This was my first project using React and I absolutely enjoyed working with it.
 <br /><br />
@@ -9,6 +9,13 @@ This was my first project using React and I absolutely enjoyed working with it.
 
 ### Deployed website
 You can find the deployed website at https://clone-3665f.web.app/ 
+
+### Pages
+The web app consists of a **home page**, **authentication page**, **basket** with a "Remove from Basket" functionality, and the **checkout** page.
+<br /><br />
+<a href="https://clone-3665f.web.app" alt="Website Checkout">![Website Checkout](src/img/website-authentication-screenshot.png)</a>
+<a href="https://clone-3665f.web.app" alt="Website Checkout">![Website Checkout](src/img/website-checkout-screenshot.png)</a>
+
 ## The steps
 ### Coding
 The coding was made during the React JavaScript Challenge. <br />
