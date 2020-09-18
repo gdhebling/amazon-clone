@@ -13,11 +13,9 @@ You can find the deployed website at https://clone-3665f.web.app/
 ### Pages
 The web app consists of a **home page**, **authentication page**, **basket** with a "Remove from Basket" functionality, and the **checkout** page.
 <br /><br />
-<a href="https://clone-3665f.web.app" alt="Website Checkout">![Website Checkout](src/img/website-authentication-screenshot.png)</a>
+<a href="https://clone-3665f.web.app" alt="Website Authentication">![Website Authentication](src/img/website-authentication-screenshot.png)</a>
 <br /><br />
-<a href="https://clone-3665f.web.app" alt="Website Checkout">![Website Checkout](src/img/website-basket-screenshot.png)</a>
-<br /><br />
-<a href="https://clone-3665f.web.app" alt="Website Checkout">![Website Checkout](src/img/website-checkout-screenshot.png)</a>
+<a href="https://clone-3665f.web.app" alt="Website Basket">![Website Basket](src/img/website-basket-screenshot.png)</a>
 <br /><br />
 
 ## The steps
