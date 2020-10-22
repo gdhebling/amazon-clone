@@ -3,7 +3,7 @@ import { useRouteMatch } from 'react-router-dom';
 import CheckoutProduct from './CheckoutProduct';
 import "./Payment.css"
 import { useStateValue } from './StateProvider'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Payment() {
 
@@ -48,16 +48,16 @@ function Payment() {
                 </div>
 
                 {/* {Payment Section - Payment Method} */}
-                <div className="payment__section">
+
+                {/* <div className="payment__section">
                     <div className="payment__title">
                         <h3>Payment Method</h3>
                     </div>
                     <div className="payment__details">
                         // Stripe goes here
-
-                        
                     </div>
-                </div>
+                </div> */}
+
             </div>
         </div>
     )
