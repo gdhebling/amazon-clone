@@ -1,4 +1,6 @@
 .payment {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
 }
 
@@ -12,6 +14,7 @@
 
 .payment__container>h1 a {
     text-decoration: none;
+    color: black;
 }
 
 .payment__section {
@@ -28,4 +31,22 @@
 .payment__address,
 .payment__items {
     flex: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+    .payment__section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .payment__title {
+        flex: 1;
+    }
+
+    .payment__address,
+    .payment__items {
+        flex: 1;
+    }
+
 }

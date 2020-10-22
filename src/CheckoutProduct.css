@@ -18,7 +18,7 @@
 
 .checkoutProduct__image {
     object-fit: contain;
-    width: 180px;
+    /* width: 180px; */
     height: 180px;
 }
 
